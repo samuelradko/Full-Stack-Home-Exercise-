@@ -12,7 +12,7 @@ console.log(info.fullName())
 
 // 1(p2)
 
-let date = new Date(1996, 0, 26)
+let date = new Date(1996, 0, 27)
 console.log(date)
 
 // 2 
