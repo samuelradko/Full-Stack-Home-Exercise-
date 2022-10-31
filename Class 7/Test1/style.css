@@ -1,0 +1,12 @@
+.nav-item > a {
+    color:white;
+}
+
+.a {
+    color:white;
+}
+
+.nav > ul{
+    justify-items: center !important;
+    justify-content: center !important;
+}

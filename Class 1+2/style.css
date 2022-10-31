@@ -1,0 +1,11 @@
+.border {
+    border-color: red;
+    background-color: aquamarine;
+    height: 150px;
+    width: 200px;
+    text-align: center;
+     
+}
+input{
+    text-align: center
+}

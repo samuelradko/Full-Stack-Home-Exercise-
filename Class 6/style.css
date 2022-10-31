@@ -1,0 +1,33 @@
+.send {
+    border-style: solid;
+    width: 8%;
+    height: 8%;
+    border-radius: 50px;
+    box-shadow: 2px 2px 10px black;
+    scale: 150%;
+
+}
+
+.send:hover {
+    box-shadow: 2px 2px 10px red;
+}
+
+.center {
+    text-align: center;
+
+
+}
+
+
+
+.text {
+    text-shadow: 2px 2px 10px white;
+    text-align: center;
+    font-size:150%;
+    
+}
+
+.text:active {
+    text-shadow: 2px 2px 2px yellow;
+    transform: scale(150%);
+}

@@ -1,0 +1,96 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+
+.header {
+    font-family: 'Bungee Spice', cursive;
+    text-align: center;
+    animation: color-change 5s;
+
+
+}
+
+@keyframes color-change {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.colorbox {
+    background-color: rgb(45, 51, 36);
+    text-align: center;
+    color: black;
+    width: 75%;
+    height: 300px;
+    position: relative;
+    padding: auto;
+    margin: auto
+}
+
+.box {
+    background-color: cornsilk;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    height: 230px;
+    position: absolute;
+    padding: auto;
+    margin: auto;
+    animation: color-change 7s;
+}
+
+.colored {
+    width: 130px;
+    height: 130px;
+    background-color: blue;
+    position: relative;
+    padding: auto;
+    margin: auto;
+    animation: color-box 5s infinite linear;
+}
+
+@keyframes color-box {
+    0% {
+        background-color: blue;
+    }
+
+    25% {
+        background-color: crimson;
+    }
+
+    50% {
+        background-color: darkgreen;
+    }
+
+    100% {
+        background-color: darkgoldenrod;
+    }
+}
+
+@keyframes text-box {
+  0% {
+    background-color: blue; right:0%; top:0%;
+  }
+  50% {
+    background-color: lightgreen; right:30%; left: 30%;
+  }
+  100% {
+    background-color:red; left: 0%; top: 0%;
+  }
+}
+
+.textbox {
+animation: text-box 5s linear infinite;
+animation-iteration-count: 3s;
+animation-duration: 5s;
+height: 140px;
+width: 140px;
+margin: auto;
+position: relative;
+}

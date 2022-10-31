@@ -1,0 +1,100 @@
+.change {
+    margin: auto;
+    padding: auto;
+    text-align: center
+}
+
+
+.click {
+    padding: auto;
+    margin: auto;
+    border-style: solid red;
+    background-color: red;
+    text-align: center;
+
+}
+
+.click:hover {
+    background-color: blue;
+    border-color: green;
+    color: white;
+    animation: big 1s infinite ease-in-out alternate;
+}
+
+@keyframes big {
+    0% {
+        transform: scale(0.8)
+    }
+
+    100% {
+        transform: scale(1.1)
+    }
+}
+
+
+
+.idle:hover {
+    background-color: aquamarine;
+
+
+}
+
+
+.idle:active {
+    background-color: blueviolet;
+    border-color: rgb(255, 0, 170);
+    color: red;
+
+}
+
+.idle {
+    padding: auto;
+    margin: auto;
+    text-align: center;
+    width: 100px;
+    height: 25px;
+    border: 8px groove;
+
+}
+
+
+.test {
+    padding: auto;
+    margin: auto;
+    text-align: center;
+    width: 100px;
+    height: 25px;
+    border: 8px groove;
+}
+
+.test:hover {
+    background-color: crimson;
+
+
+}
+
+.test:active {
+    background-color: blue;
+    border-color: darkturquoise;
+    color: sienna;
+}
+
+.test1 {
+    padding: auto;
+    margin: auto;
+    text-align: center;
+    width: 100px;
+    height: 25px;
+    border: 8px groove;
+
+}
+
+.test1:hover {
+    background-color: blue
+}
+
+.test1:active {
+    background-color: chartreuse;
+    border-color: darkgreen;
+    color: rgb(25, 0, 255);
+}
