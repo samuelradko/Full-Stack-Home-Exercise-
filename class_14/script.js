@@ -13,11 +13,10 @@ function age(x) {
         return console.log(`Aging like a fine wine arent't you?`) // 3 - If the age is over 30, print: "Aging like a fine wine aren't you?".
     } else if (x >= 18) {
         return console.log(`You may enter the site`) // 2 - If the age is equal to or over 18 print: "You are still young but good to go".
-    } else if (x < 18) {
+    } else (x < 18) 
         return console.log(`Sorry I can't let you pass`) // 1 - "Create a statement that says if age is less than 18 print: "Not valid"."
-    }
-};
-age(19)
+    };
+age(17)
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 // Tasks from lesson 24
