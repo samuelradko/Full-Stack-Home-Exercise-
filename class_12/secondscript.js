@@ -29,9 +29,9 @@ for (let i = 0; i < 100; i++) {
 
 // Another method you can use is
 
-// const multiplier = 10;
-// for (let i = 0; i <= 100; i++) {
-//     let result = multiplier * i;
-//     console.log(result);
-// }
+const multiplier2 = 10;
+for (let i = 0; i <= 100; i++) {
+    let result = multiplier2 * i;
+    console.log(result);
+}
 
