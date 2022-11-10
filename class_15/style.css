@@ -1,0 +1,19 @@
+* {
+    text-align: center;
+}
+
+.box{
+    border: 50px solid;
+    border-radius: 3px;
+}
+
+
+.ans{
+    background-color: rgb(209, 255, 4);
+    width: auto;
+}
+
+
+.down{
+    margin-top: 150px;
+}
