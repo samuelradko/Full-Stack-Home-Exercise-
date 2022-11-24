@@ -3,10 +3,10 @@
 
 
 function pop() {
-    let num1 = prompt("Please enter a number and I will divide it by 10");
-    if (Number(num1 + 10) > 0) {
+    let num1 = prompt("Please enter a number and I will add it up by 10");
+    if (Number(num1)) {
         document.getElementById("noice").innerHTML =
-            `The Answer is ` + num1 / 10;
+            `The Answer is  ${Number(num1) + 10}`;
     } else {
         alert("Please enter a number")
     }
