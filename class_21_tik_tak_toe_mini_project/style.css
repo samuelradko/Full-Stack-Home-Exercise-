@@ -54,3 +54,19 @@ body{
     bottom: 0px;
     left: 0px;
 }
+
+td{
+    color: white;
+}
+tr{
+    color:white;
+}
+
+
+.score{
+    text-align:center;
+    width: 20vw;
+    height:auto;
+    color: white;
+    border: 3px solid
+}

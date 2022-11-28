@@ -1,0 +1,61 @@
+{
+    "ob1": {
+        "firstName": "Jon",
+        "LastName": "Bon",
+        "Eye color": "Red",
+        "Age": 43,
+        "Children": 2
+    },
+    "ob2":{
+        "firstName": "Will" ,
+        "LastName": "Smith",
+        "Eye color": "Grren",
+        "Age": 53,
+        "Children": 4 
+    },
+
+    "ob3":{
+        "firstName": "Adam",
+        "LastName": "Apple",
+        "Eye color": "Green",
+        "Age": 63,
+        "Children": 6
+    },
+    "ob4":{
+        "firstName": "Samuel",
+        "LastName": "Radko",
+        "Eye color": "Brown",
+        "Age": 24 ,
+        "Children":0
+    },
+    "ob5":{
+        "firstName": "Rachel",
+        "LastName": "Pot",
+        "Eye color": "Blue",
+        "Age": 32,
+        "Children": 3 
+    },
+    "ob6":{
+        "firstName": "Mailny",
+        "LastName": "Pomp",
+        "Eye color": "Black",
+        "Age": 67,
+        "Children": 9 
+    },
+    "ob7":{
+        "firstName": "Tramp",
+        "LastName": "Johns",
+        "Eye color": "Brown",
+        "Age": 76,
+        "Children": 12
+    },
+    "ob8":{
+        "firstName": "Michal",
+        "LastName": "Louis",
+        "Eye color": "White",
+        "Age": 120,
+        "Children":21 
+    }
+
+    
+}
