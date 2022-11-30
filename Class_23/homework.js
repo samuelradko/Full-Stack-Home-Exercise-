@@ -155,7 +155,7 @@ const trim = (str) => { };
 
 // fibunacci sequence - https://en.wikipedia.org/wiki/Fibonacci_number
 // write a function that returns the nth number in the fibonacci sequence
-//--------------------------------------------------------------------------------------------------------------------------------
+//------------------------------------------------------------------------
 
 //** The Fibonacci sequence begins with the following 14 integers:
 //  0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233 ...
