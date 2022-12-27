@@ -20,13 +20,13 @@
 
 <body>
   <div id="img-div">
-    <div>
-      <h1> Welcome </h1>
-      <div>
-        <h3 id="user-name-h">Welcome Guest</h3>
-      </div>
-      <button id="sign-out" onclick="redirect(`../src/login.html`);handleLogout();">Login</button>
+    <div class="card-content">
+      <h3 id="user-name-h">Welcome Guest</h3>
+
+      <button id="log" onclick="redirect(`../src/login.html`)">Sign-In</button>
+      <button id="logout" onclick="handleLogout()">Sign-Out</button>
     </div>
+  </div>
 
 
 

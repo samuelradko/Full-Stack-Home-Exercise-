@@ -15,25 +15,23 @@ function redirect(link) {
 let handleLogout = () => {
     window.sessionStorage.clear();
     window.location.reload(true);
-    window.location.replace('../src/login.html');
+    redirect(`Index.html`);
 };
 
 function morph() {
     if (location.pathname == "/Full-Stack-Home-Exercise-/class_24/src/Index.html") {
         if (sessionStorage.getItem("isLogin") == "true") {
             document.getElementById("user-name-h").textContent = `Welcome back ${sessionStorage.getItem("username")}`;
-            document.getElementById("sign-out").textContent = "Sign-Out";
-            document.getElementById("img-div").style.backgroundImage = "url('/Full-Stack-Home-Exercise-/class_24/static/back.jpg')"
-
+            document.getElementById("img-div").style.backgroundImage = "url('/Full-Stack-Home-Exercise-/class_24/static//back.jpg')";
+            document.getElementById("log").style.display = "none";
         } else {
-            console.log(localStorage.getItem("isLogin"))
-            console.log(location.pathname);
+            document.getElementById("logout").style.display = "none";  
         }
     } else {
         console.log(localStorage.getItem("isLogin"))
         console.log(location.pathname);
     }
-}
+};
 
 
 let loginUser = () => {
